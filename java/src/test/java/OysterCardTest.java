@@ -22,7 +22,7 @@ class OysterCardTest {
 
     card.touchIn("TUBE", "Earl's Court");
 
-    assertEquals(card.getBalance(), 680);
+    assertEquals(680, card.getBalance());
   }
 
   @Test
@@ -32,7 +32,7 @@ class OysterCardTest {
 
     card.touchIn("BUS", "Earl's Court");
 
-    assertEquals(card.getBalance(), 820);
+    assertEquals(820, card.getBalance());
   }
 
   @Test
