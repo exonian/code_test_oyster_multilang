@@ -4,4 +4,4 @@ To run the code locally:
 
 - Clone this repo
 - cd into the `java` directory
-- `mvn test` to run the tests
+- run `mvn test` or `./gradlew test` to run the tests
