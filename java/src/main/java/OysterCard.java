@@ -10,4 +10,8 @@ public class OysterCard {
   public void topUp(int amount) {
 
   };
+
+  public int getBalance() {
+    return -1;
+  }
 }
